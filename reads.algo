@@ -1,0 +1,22 @@
+1. Initialize counters:
+   - Set length = 0
+   - Set wordCount = 0
+   - Set vowelCount = 0
+
+2. Read the sentence as input until a point character is encountered:
+   - Repeat the following steps:
+     - Read a character from the input.
+     - Increment the length counter by 1.
+     - If the character is a letter (a-z or A-Z):
+       - Convert the character to lowercase.
+       - If the character is a vowel (a, e, i, o, u):
+         - Increment the vowelCount counter by 1.
+     - If the character is a space:
+       - Increment the wordCount counter by 1.
+
+3. Output the results:
+   - Display the length of the sentence.
+   - Display the number of words in the sentence (wordCount + 1).
+   - Display the number of vowels in the sentence.
+
+4. End the algorithm.
